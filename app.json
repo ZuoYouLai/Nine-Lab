@@ -1,6 +1,9 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/fx/fx",
+    "pages/kc/kc",
+    "pages/me/me",
     "pages/logs/logs"
   ],
   "window":{
@@ -8,5 +11,33 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#89bdf7",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "border-top：":"1px solid #eee",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "定制",
+      "iconPath": "image/icon1_bottom_normal@3x.png",
+      "selectedIconPath": "image/icon1_bottom_click@3x.png"
+    }, {
+      "pagePath": "pages/fx/fx",
+      "text": "发现",
+      "iconPath": "image/icon2_bottom_normal@3x.png",
+      "selectedIconPath": "image/icon2_bottom_click@3x.png"
+    },{
+      "pagePath": "pages/kc/kc",
+      "text": "课程",
+      "iconPath": "image/icon3_bottom_normal@3x.png",
+      "selectedIconPath": "image/icon3_bottom_click@3x.png"
+    },{
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "image/icon4_bottom_normal@3x.png",
+      "selectedIconPath": "image/icon4_bottom_click@3x.png"
+    }]
   }
 }
